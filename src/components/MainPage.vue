@@ -42,7 +42,7 @@
       </div>
     </div>
     <div v-if="this.cont == 6 && this.usuario.length > 0 && this.banreg == false">
-      <h1>Felicidades</h1>
+      <h1>Felicidades Ganó</h1>
     </div>
     <div v-if="this.ban == true && this.usuario.length > 0 && this.banreg == false">
       <h1>Fin del Juego</h1>
